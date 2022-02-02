@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejerc-15</title>
+    <style>
+      .examen{color: rgb(230, 23, 23);}
+      #selectores{color: rgb(66, 245, 66);}
+      *{background-color: rgb(245, 236, 66)}
+      h1,em{color: rgb(66, 111, 245);}
+      ol li{color: rgb(144, 66, 245);}
+      #b:hover{background-color: rgb(240, 248, 255);}
+    </style>
+  </head>
+  <body>
+    *<h1>Tipos de selectores que entran en examen</h1>
+    <h2>1.Clase</h2>
+    <p class="examen"> Esta etiqueta clase selecciona todos los elementos que poseen esta etiqueta. Por ejemplo le pongo a este párrafo la clase "examen" y le ponemos el color rojo colorea a este párrafo y lo que ponga con esa clase de rojo,colocando en el style .examen.
+    <h2 id="selectores">2.Identificador (id=””)</h2> 
+    <p>Esta etiqueta solo selecciona el elemento que posee el id. Por ejemplo le pongo el <em>id</em>("selectores") al h2 y solo se puede poner a ese h2 con este id para poner color verde poniendo en style #selectores.</p>
+
+    <h2>3.Todos los elementos (*)</h2> 
+    <p>Selecciona todos los elementos. Es decir le pongo <em>*</em> al texto para que me ponga fondo amarillo y me lo pone a todo el texto</p>
+
+    <h2>4.Varios elementos ( p, em, h1, h2)  </h2> 
+    <p>Todas las etiquetas que seleccionas en una <em>lista</em> van del mismo color. Le ponemos color azul a el h1 y a los em, poniendolos entre comas.</p>
+
+    <h2>5.Elementos contenidos en otros elementos (ol li) </h2> 
+    <p>Selecciona todos los li que hay dentro del ol. Por ejemplo si en un ol quiero poner todos los elementos de morado lo hago de esta manera:</p> 
+    <ol>
+      <li>desayuno</li>
+      <li>como</li>
+      <li>ceno</li>
+    </ol>
+
+    <h2>6.Sobrevuleo (p:hover)</h2>
+    <p id="b">Consiste en ponerle un color o fondo a un párrafo o título el cual solo se ve cuando pones el raton encima de él. Por ejemplo lo que hice en este párrafo.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
